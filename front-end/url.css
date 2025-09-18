@@ -83,4 +83,15 @@ navbar navbar-expand-lg bg-body-tertiary {
     gap: 5%;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.quote {
+    padding: 10px;
+    transition: transform 1s ease;
+}
+.quote:hover {
+    background: black;
+    color: white;
+    transform: scale(1.2);
 }
