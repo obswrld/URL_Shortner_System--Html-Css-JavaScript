@@ -16,7 +16,7 @@ body {
 }
 #content {
     text-align: center;
-    padding-top: 25%;
+    padding-top: 15%;
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -40,6 +40,26 @@ input {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(190, 188, 188);
+    border: none;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+}
+button {
+    padding: 10px 15px;
+    background: linear-gradient(45deg, #eff3f3, #baa6bb, #b196a2, #c8e65c);
+    animation: gradientAnimation 10s ease infinite;
+    background-size: 4% 4%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+button:hover {
+    background: black;
+    color: white;
+    transform: scale(1.2);
 }
 navbar navbar-expand-lg bg-body-tertiary {
     background-color: white;
@@ -47,5 +67,20 @@ navbar navbar-expand-lg bg-body-tertiary {
 .navbar-brand {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
+    color: black;
+}
+.messages {
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 5%;
+}
+.message {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
 }
