@@ -95,3 +95,7 @@ navbar navbar-expand-lg bg-body-tertiary {
     color: white;
     transform: scale(1.2);
 }
+#short-url-result {
+    text-align: center;
+    margin-top: 20px;
+}
